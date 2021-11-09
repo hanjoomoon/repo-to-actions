@@ -20,9 +20,7 @@ jobs:
         uses: crazy-max/ghaction-docker-meta@v1
         with:
           images: devlouis3117/node
-          tag-semver: |
-            {{version}}
-            {{major}}.{{minor}}
+          tag-semver: 1.0
       -
         name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v1
