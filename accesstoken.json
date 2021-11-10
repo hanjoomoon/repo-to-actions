@@ -1,5 +1,4 @@
-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
-
+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
 curl -u username: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 https://api.github.com/user
 {
   "login": "hanjoomoon",
